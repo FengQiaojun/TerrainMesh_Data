@@ -1,10 +1,12 @@
 # TerrainMesh
-Mesh Reconstruction for Terrain Mapping (ICRA 2021)
+Mesh Reconstruction for Terrain Mapping (ICRA 2021 / TRO submitted)
 
-## Dataset link
+## WHU (Geometric)
+
+### Download
 Please download the dataset through the [Google Drive link](https://drive.google.com/drive/folders/1upXfSOmUZNv_s7lcL4Jazo-8UNiVENmh?usp=sharing).
 
-## Structure
+### Structure
 There are 14 sequences in the train, 2 sequences in the val and 4 sequences in the test. Each sequence contains 200 images. For each sequence there are 7 folders.
 ```
 train
@@ -24,7 +26,7 @@ test
 ```
 
 
-## Folders
+### Folders
 
 * **Cams**  
 Stores the camera intrinsics and extrinsics. All the images share the same intrinsics. The intrinsic parameters are [f cx cy width height], f=fx=fy. The extrinsic is a 4x4 matrix of SE(3) with identity rotation. One example is
@@ -71,7 +73,21 @@ Stores the noise-free sparse point clouds sampled from Pcds. We use the same sam
 Notice the 2D sparse depth maps in **Pcds**, **Pcds_1000**, **Pcds_1000_gt** follow the same format of the groundtruth depth images in **Depths**, i.e., is stored in 16-bit and the real depth value can be derived by dividing 64.
 
 
+## SensatUrban (Geometric+Semantic)
+
+### Download
+Please download the dataset through the [Google Drive link](https://drive.google.com/drive/folders/1AKFAIMIy66irr5cflrfKADXU_CZnYEKP?usp=sharing).
+
+
 ## Ref
-The dataset is developed from [WHU MVS/Stereo Dataset](http://gpcv.whu.edu.cn/data/WHU_MVS_Stereo_dataset.html). If you find this helpfut to you project, please consider cite  
-[1] Q. Feng and N. Atanasov, “Mesh Reconstruction from Aerial Images for Outdoor Terrain Mapping Using Joint 2D-3D Learning,” in IEEE International Conference on Robotics and Automation (ICRA), 2021.  
-[2] J. Liu and S. Ji, “A Novel Recurrent Encoder-Decoder Structure for Large-Scale Multi-View Stereo Reconstruction From an Open AerialDataset,” in IEEE/CVF Conference on Computer Vision and PatternRecognition (CVPR), 2020, pp. 6049–6058.
+[1] Q. Feng and N. Atanasov, "TerrainMesh: Metric-Semantic Terrain Reconstruction from Aerial Images Using Joint 2D-3D Learning," arXiV, 2022
+[2] Q. Feng and N. Atanasov, "Mesh Reconstruction from Aerial Images for Outdoor Terrain Mapping Using Joint 2D-3D Learning," 2021 IEEE International Conference on Robotics and Automation (ICRA), 2021, pp. 5208-5214  
+
+
+The dataset is developed from [WHU MVS/Stereo Dataset](http://gpcv.whu.edu.cn/data/WHU_MVS_Stereo_dataset.html) and [SensatUrban Dataset](http://point-cloud-analysis.cs.ox.ac.uk/). If you find this helpful, please consider cite  
+
+[3] J. Liu and S. Ji, “A Novel Recurrent Encoder-Decoder Structure for Large-Scale Multi-View Stereo Reconstruction From an Open AerialDataset,” in IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020, pp. 6049–6058.
+[4] Q. Hu, B. Yang, S. Khalid, W. Xiao, N. Trigoni and A. Markham, "Towards Semantic Segmentation of Urban-Scale 3D Point Clouds: A Dataset, Benchmarks and Challenges," 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021, pp. 4975-4985
+
+## Contact
+Qiaojun Feng qjfeng@ucsd.edu
