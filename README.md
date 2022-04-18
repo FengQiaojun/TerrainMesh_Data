@@ -80,13 +80,13 @@ Please download the dataset through the [Google Drive link](https://drive.google
 
 
 ## Ref
-[1] Q. Feng and N. Atanasov, "TerrainMesh: Metric-Semantic Terrain Reconstruction from Aerial Images Using Joint 2D-3D Learning," arXiV, 2022
+[1] Q. Feng and N. Atanasov, "TerrainMesh: Metric-Semantic Terrain Reconstruction from Aerial Images Using Joint 2D-3D Learning," arXiV, 2022  
 [2] Q. Feng and N. Atanasov, "Mesh Reconstruction from Aerial Images for Outdoor Terrain Mapping Using Joint 2D-3D Learning," 2021 IEEE International Conference on Robotics and Automation (ICRA), 2021, pp. 5208-5214  
 
 
 The dataset is developed from [WHU MVS/Stereo Dataset](http://gpcv.whu.edu.cn/data/WHU_MVS_Stereo_dataset.html) and [SensatUrban Dataset](http://point-cloud-analysis.cs.ox.ac.uk/). If you find this helpful, please consider cite  
 
-[3] J. Liu and S. Ji, “A Novel Recurrent Encoder-Decoder Structure for Large-Scale Multi-View Stereo Reconstruction From an Open AerialDataset,” in IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020, pp. 6049–6058.
+[3] J. Liu and S. Ji, “A Novel Recurrent Encoder-Decoder Structure for Large-Scale Multi-View Stereo Reconstruction From an Open AerialDataset,” in IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020, pp. 6049–6058.  
 [4] Q. Hu, B. Yang, S. Khalid, W. Xiao, N. Trigoni and A. Markham, "Towards Semantic Segmentation of Urban-Scale 3D Point Clouds: A Dataset, Benchmarks and Challenges," 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021, pp. 4975-4985
 
 ## Contact
